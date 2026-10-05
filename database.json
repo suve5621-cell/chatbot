@@ -1,0 +1,129 @@
+{
+  "categories": [
+    {
+      "id": "tanglish",
+      "name": "🗣️ Tanglish & Casual",
+      "questions": [
+        {
+          "q": "Hi, epdi irukka?",
+          "keywords": ["epdi irukka", "epdi irukinga", "how are you in tanglish"],
+          "a": "Super-ah irukken! Neenga epdi irukinga? Enkitta ena venalum kelunga, ungalukku help panna naan ready! 😊"
+        },
+        {
+          "q": "Un name enna?",
+          "keywords": ["un name enna", "unga name enna", "what is your name in tanglish"],
+          "a": "Enoda name **SuveBot**! Naan ungaloda smart AI assistant. English, Tanglish, Tamil - edhula venalum enkitta chat pannalam!"
+        },
+        {
+          "q": "Saptingala?",
+          "keywords": ["saptingala", "saputiya", "did you eat"],
+          "a": "Haha naan oru AI bot, so enakku electricity & data thaan saapadu! 😄 Neenga saptingala? Enna saapatinga?"
+        },
+        {
+          "q": "Enna pandra?",
+          "keywords": ["enna pandra", "enna panringa", "what are you doing"],
+          "a": "Ungaloda questions-ku answer panna ready-ah wait pannitu irukken! Ena help venum ungalukku?"
+        },
+        {
+          "q": "Oru funny joke sollu",
+          "keywords": ["joke", "funny joke", "sirippu", "solu"],
+          "a": "Teacher: 1 to 10 kula oru number sollu.\nStudent: 7 sir!\nTeacher: Adhu epdi correct-ah sonna?\nStudent: En lucky number sir!\nTeacher: Naan kettadhey '7' thaan da! 😂"
+        }
+      ]
+    },
+    {
+      "id": "gk",
+      "name": "🌍 General Knowledge",
+      "questions": [
+        {
+          "q": "What is the capital of Tamil Nadu?",
+          "keywords": ["capital of tamil nadu", "tamil nadu capital", "tamilnadu thalainagaram"],
+          "a": "The capital of Tamil Nadu is **Chennai** (formerly known as Madras). Tanglish-la sonna: Tamil Nadu oda capital **Chennai**!"
+        },
+        {
+          "q": "What is the capital of India?",
+          "keywords": ["capital of india", "india capital", "india thalainagaram"],
+          "a": "The capital of India is **New Delhi**."
+        },
+        {
+          "q": "Who invented the computer?",
+          "keywords": ["who invented computer", "computer inventor", "computer kandupidichathu yaru"],
+          "a": "**Charles Babbage** is known as the 'Father of the Computer' for designing the Analytical Engine in the 1830s."
+        },
+        {
+          "q": "What is the speed of light?",
+          "keywords": ["speed of light", "light speed", "oli vegathil"],
+          "a": "The speed of light in vacuum is approximately **299,792 kilometers per second** (about **300,000 km/s** or **186,000 miles/second**)."
+        },
+        {
+          "q": "Which is the largest planet in our solar system?",
+          "keywords": ["largest planet", "biggest planet", "periya planet"],
+          "a": "**Jupiter** (வியாழன்) is the largest planet in our solar system. It is so big that more than 1,300 Earths could fit inside it!"
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "💻 Coding & Tech",
+      "questions": [
+        {
+          "q": "What is an API? Explain simply in Tanglish",
+          "keywords": ["what is api", "explain api", "api na enna"],
+          "a": "**API (Application Programming Interface)** na oru waiter maadhiri:\n1. Neenga (Client) menu paathu food order pandringa.\n2. Waiter (API) kitchen-ku (Server/Database) poyee food kekurar.\n3. Kitchen-la prepare panni waiter ungalukku kondu vandhu tharar.\n\nAdhe maadhiri rendu apps or systems onnukonnu data share panna API use aagudhu!"
+        },
+        {
+          "q": "Write a Python Hello World program",
+          "keywords": ["python hello world", "write python program", "python code"],
+          "a": "Python-la romba simple:\n\n```python\nprint(\"Hello, World!\")\n```\nRun panna: `python filename.py` nu terminal-la type pannunga."
+        },
+        {
+          "q": "How to create a stylish button in HTML & CSS?",
+          "keywords": ["html button", "css button", "stylish button"],
+          "a": "HTML & CSS Button code:\n\n```html\n<button class=\"btn\">Click Me</button>\n\n<style>\n.btn {\n  background: #2563eb;\n  color: white;\n  padding: 10px 20px;\n  border: none;\n  border-radius: 8px;\n  font-size: 16px;\n  cursor: pointer;\n  transition: 0.3s;\n}\n.btn:hover {\n  background: #1d4ed8;\n  transform: scale(1.05);\n}\n</style>\n```"
+        },
+        {
+          "q": "Difference between let, const, and var in JavaScript?",
+          "keywords": ["difference between let and const", "let vs const vs var", "js let const"],
+          "a": "JavaScript Variables:\n- **`const`**: Value-ah matha mudiyadhu (Fixed value, Block scoped). E.g. `const pi = 3.14;`\n- **`let`**: Value-ah mathalam (Re-assignable, Block scoped). E.g. `let count = 1; count = 2;`\n- **`var`**: Pazhaya method (Function scoped, avoid panradhu nalladhu)."
+        }
+      ]
+    },
+    {
+      "id": "math",
+      "name": "🧮 Maths & Formulas",
+      "questions": [
+        {
+          "q": "How to calculate 15% of 500?",
+          "keywords": ["15% of 500", "15 percent of 500", "percentage calculate"],
+          "a": "Step-by-step:\n`15% of 500 = (15 / 100) * 500`\n`= 15 * 5 = 75`\n\nAnswer: **75**."
+        },
+        {
+          "q": "What is the formula for the area of a circle?",
+          "keywords": ["area of circle", "circle formula", "circle area formula"],
+          "a": "Formula: **Area = π × r²**\nWhere:\n- `π` (Pi) ≈ 3.14159\n- `r` = radius (ஆரம்)\n\nExample: Radius 7 cm na, Area = (22/7) * 7 * 7 = **154 sq.cm**."
+        },
+        {
+          "q": "What is Pythagoras Theorem?",
+          "keywords": ["pythagoras theorem", "pythagoras", "theorm"],
+          "a": "Right-angled triangle (செங்கோண முக்கோணம்)-ku:\n\n**a² + b² = c²**\n\n(Hypotenuse)² = (Side 1)² + (Side 2)²\nExample: Sides 3 & 4 na, `3² + 4² = 9 + 16 = 25`. Hypotenuse = `√25 = 5`."
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "name": "✍️ Daily Writing & Email",
+      "questions": [
+        {
+          "q": "Write a 1-day sick leave letter for office/college",
+          "keywords": ["leave letter", "sick leave letter", "leave email", "leave letter format"],
+          "a": "**Subject: Sick Leave Application - [Your Name]**\n\nDear [Manager/Principal Name],\n\nI am writing to inform you that I am unwell today due to fever/headache and will not be able to attend [office/classes] on [Date].\n\nI will ensure my urgent tasks are handed over or attended to once I recover. Kindly grant me leave for today.\n\nThank you.\n\nYours sincerely,\n[Your Name]\n[Contact Number]"
+        },
+        {
+          "q": "How to introduce myself in an interview? (Tanglish guide)",
+          "keywords": ["self introduction", "interview intro", "intro in interview", "introduce myself"],
+          "a": "Simple 4-Step Self Introduction:\n1. **Greeting & Name:** 'Good morning/afternoon sir/madam, thank you for this opportunity. I am [Name], from [City].'\n2. **Education/Background:** 'I completed my [Degree] in [Field] from [College Name].'\n3. **Skills & Projects:** 'I am skilled in [Python/Web Dev/Design], and I recently built [Project Name] which does [Brief line].'\n4. **Goal:** 'I am eager to contribute my skills to your team and learn new technologies. Thank you!'"
+        }
+      ]
+    }
+  ]
+}
